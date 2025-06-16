@@ -15,3 +15,21 @@
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+# Cloud Foundry deployment artifacts
+cf-deploy/
+docs/
+.svelte-kit/
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs
+build/
+dist/
+
+# Environment and logs
+.env
+*.log
+npm-debug.log*

@@ -1,0 +1,12 @@
+applications:
+- name: mermaid-live
+  buildpacks:
+    - nodejs_buildpack
+  memory: 1G
+  instances: 1
+  health-check-type: http
+  health-check-http-endpoint: /
+  timeout: 180
+  env:
+    NODE_ENV: production
+    NPM_CONFIG_PRODUCTION: false
